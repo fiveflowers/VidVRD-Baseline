@@ -7,7 +7,8 @@ sudo apt-get install libboost-all-dev
 
 ```bash
 conda create -n vidvrd python=2.7 
-conda install cmake tensorflow-gpu=1.8.0 keras=2.1.6 tqdm ffmpeg=3.4 py-opencv
+pip install cmake tensorflow-gpu==1.8.0 keras==2.1.6 tqdm 
+conda install ffmpeg=3.4 py-opencv
 pip install dlib==19.3.1 --isolated
 ``` 
 
