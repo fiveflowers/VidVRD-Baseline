@@ -1,13 +1,13 @@
 # Quick Start
 1. Install the prerequisites
 ```
-cuda 9.0
+cuda 9.2
 sudo apt-get install libboost-all-dev
 ```
 
 ```bash
 conda create -n vidvrd python=2.7 
-pip install cmake tensorflow-gpu==1.8.0 keras==2.1.6 tqdm 
+pip install cmake tensorflow-gpu==1.15.0 keras==2.1.6 tqdm 
 conda install ffmpeg=3.4 py-opencv
 pip install dlib==19.3.1 --isolated
 ``` 

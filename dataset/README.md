@@ -9,11 +9,14 @@ It is recommended to place the downloaded datasets under the same folder as this
 │   │   ├── training
 │   │   └── validation
 │   └── video
+├── vidvrd-baseline-output
+│   ├── features
+│   ├── models
 ├── vidvrd-dataset
 │   ├── test
 │   ├── train
 │   └── videos
-└── VidVRD-helper
+└── codebase
     ├── baseline
     ├── baseline.py
     ├── dataset
